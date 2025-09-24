@@ -31,3 +31,30 @@ Con que buscar: metodo y resultado, que problema resuelve.
 Verificar si el desarrollo puede ser fabricado o utilizado en algún tipo de industria o actividad práctica. Si la invención es susceptible de ser producida o utilizada en cualquier sector económico, cumple con este requisito. Describa cómo el desarrollo puede ser aplicado en la industria o en centros de investigación.
 Con que buscar: que se pueda aplicar y no debe estar publicado.  
 
+
+
+### Paginas donde buscan
+#### Documentos cientificos 
+- Web of Science (WoS) 
+- Scopus (Elsevier) 
+- PubMed Central (PMC) 
+- Redalyc (revistas científicas latinoamericanas de acceso libre) 
+- SciELO (producción científica iberoamericana) 
+- SpringerLink 
+- ProQuest 
+- Google Scholar https://scholar.google.com/?hl=es 
+- Dialnet https://dialnet.unirioja.es/ 
+- Eric https://eric.ed.gov/ 
+
+
+#### Patentes 
+- Lens.org  https://www.lens.org/lens/ (aqui si pide el check que no eres un robot) 
+- Google Patents  https://patents.google.com/ 
+- Inpi Angentina  https://www.argentina.gob.ar/inpi 
+- Inapi Chile https://www.inapi.cl/ 
+- Wipo Patentscope  https://www.wipo.int/es/web/patentscope 
+- Espacenet https://worldwide.espacenet.com/ 
+- Invenes  https://consultas2.oepm.es/InvenesWeb/faces/busquedaInternet.jsp 
+- Global Dossier https://www.uspto.gov/patents/basics/international-protection/global-dossier-initiative 
+- Oficina Española de Patentes y Marcas (OEPM)  https://www.oepm.es/es/ 
+
