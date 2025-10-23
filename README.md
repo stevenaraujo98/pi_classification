@@ -19,32 +19,59 @@ La idea seria buscar proyectos similares:
 1. Módulo de Búsqueda y Novedad:  
 Verificar si ninguna divulgación previa, en cualquier parte del mundo, describe exactamente lo que se reclama en la solicitud. Si la invención no ha sido divulgada públicamente en el estado de la técnica antes de la fecha de presentación, se considera nueva.  
 Posibles paginas: Wipo, Google Patents, Scopus, Scival, Lens.  
-Con que buscar: descripcion, nombre del proyecto, a nivel mundial.  
+Con que buscar: descripcion, nombre del proyecto, a nivel mundial. 
+Una invención es nueva cuando no ha sido divulgada públicamente en ningún lugar del mundo antes de la fecha de presentación o de prioridad de la solicitud. No debe existir en publicaciones, patentes previas, conferencias, redes, o uso público. 
+Ejemplos:
+✅ Nuevo compuesto bioactivo aislado de un microorganismo del suelo ecuatoriano con efecto antifúngico sobre Sigatoka negra.
+❌ Un fertilizante que ya está publicado en una revista científica, aunque se fabrique por primera vez en Ecuador, no es nuevo.
 
 
 2. Módulo de Nivel Inventivo:  
 Comparar la invención reclamada con el estado de la técnica más cercano y determinar si, para un experto en la materia, la solución propuesta resulta evidente o no a partir de los conocimientos previos. Si la solución no es obvia y resuelve un problema técnico de manera no anticipada por la tecnología existente, se puede considerar que existe un nivel inventivo.  
 Con que buscar: metodo y resultado, que problema resuelve.  
+Una invención tiene nivel inventivo si no resulta obvia para una persona con conocimientos normales en el campo técnico correspondiente. Debe implicar un avance o solución técnica no evidente a partir de lo que ya existe.
+Ejemplos:
+✅ Una formulación innovadora que combina un extracto vegetal y un probiótico de manera sinérgica para controlar enfermedades en camarones, mostrando un mecanismo técnico inesperado.
+❌ Cambiar el color, tamaño o una proporción menor de ingredientes en una fórmula conocida no implica nivel inventivo.
 
 
 3. Módulo de Aplicación Industrial:  
 Verificar si el desarrollo puede ser fabricado o utilizado en algún tipo de industria o actividad práctica. Si la invención es susceptible de ser producida o utilizada en cualquier sector económico, cumple con este requisito. Describa cómo el desarrollo puede ser aplicado en la industria o en centros de investigación.
 Con que buscar: que se pueda aplicar y no debe estar publicado.  
+La invención debe ser susceptible de producción o utilización en cualquier tipo de industria , incluidas las agrícolas, pesqueras, alimentarias o biotecnológicas. Debe poder fabricarse o aplicarse de forma práctica.
+Ejemplos:
+✅ Un bioinsumo que puede producirse mediante fermentación y aplicarse en plantaciones de banano para reducir enfermedades fúngicas.
+❌ Una teoría científica o un descubrimiento natural sin aplicación práctica no es patentable.
 
 
 
 ### Paginas donde buscan
 #### Documentos cientificos 
 - Web of Science (WoS) 
-- Scopus (Elsevier) 
+- `Scopus (Elsevier)` 
 - PubMed Central (PMC) 
 - Redalyc (revistas científicas latinoamericanas de acceso libre) 
 - SciELO (producción científica iberoamericana) 
-- SpringerLink 
+- `SpringerLink` 
 - ProQuest 
 - Google Scholar https://scholar.google.com/?hl=es 
 - Dialnet https://dialnet.unirioja.es/ 
 - Eric https://eric.ed.gov/ 
+
+##### Se posee
+- [OpenAlex](https://docs.openalex.org/api-entities/works/get-a-single-work):
+    - Microsoft Academic Graph (MAG): Cuando Microsoft descontinuó este proyecto en 2021, OpenAlex utilizó su conjunto de datos final como una de sus - fuentes principales para continuar y construir sobre él.
+    - Crossref: Una organización de registro de DOI (identificador de objeto digital) que proporciona datos sobre millones de trabajos académicos.
+    - ORCID: Permite la identificación única de autores de investigaciones.
+    - DataCite: Una organización que proporciona identificadores para conjuntos de datos de investigación y otros recursos.
+    - DOAJ (Directory of Open Access Journals): Un directorio que indexa revistas académicas de acceso abierto.
+    - Unpaywall: Una base de datos que rastrea las versiones de acceso abierto de los artículos.
+    - PubMed y PubMed Central: Bases de datos de literatura biomédica y de ciencias de la vida.
+    - Repositorios institucionales y temáticos: Reúne datos de repositorios como arXiv, Zenodo y muchos otros.
+    - ISSN International Centre: Proporciona identificadores para publicaciones seriadas como revistas.
+    - Rastreo web: También utiliza el rastreo web para encontrar y recopilar información de páginas de revistas y otros sitios.
+- [Scopus - Elsevier](https://dev.elsevier.com/api_docs.html)
+- [SpringerLink](https://dev.springernature.com/docs/api-endpoints/open-access/?source=data-solutions)
 
 
 #### Patentes 
@@ -58,3 +85,5 @@ Con que buscar: que se pueda aplicar y no debe estar publicado.
 - Global Dossier https://www.uspto.gov/patents/basics/international-protection/global-dossier-initiative 
 - Oficina Española de Patentes y Marcas (OEPM)  https://www.oepm.es/es/ 
 
+##### Se posee
+- [Patentsview](https://search.patentsview.org/docs/docs/Search%20API/SearchAPIReference#api-query-language)
