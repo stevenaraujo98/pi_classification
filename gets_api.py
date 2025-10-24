@@ -14,6 +14,12 @@ PATENTSVIEW_KEY = os.getenv("PATENTSVIEW_KEY")
 
 @dataclass
 class Reference:
+    """
+    “Cooperative Patent Classification”. Es el sistema usado por oficinas de patentes (USPTO/EPO) para clasificar patentes por tecnología.
+
+    cpc_sections = vista de alto nivel (macro) del dominio tecnológico.
+    cpc_groups = vista más específica (micro) para análisis fino y diversidad tecnológica.
+    """
     source: str                       # "openalex" | "patentsview"
     id: str
     title: str
@@ -103,7 +109,7 @@ def search_openalex(
                 break
 
         data = resp.json()
-        print("data", data)
+        # print("data", data)
 
         works = data.get("results", [])
         if not works:
@@ -226,7 +232,7 @@ def search_patentsview(
             if resp.status_code != 200:
                 break
 
-        print("resp", resp)
+        # print("resp", resp)
 
         data = resp.json()
         patents = data.get("patents", [])

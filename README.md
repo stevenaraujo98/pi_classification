@@ -87,3 +87,22 @@ Ejemplos:
 
 ##### Se posee
 - [Patentsview](https://search.patentsview.org/docs/docs/Search%20API/SearchAPIReference#api-query-language)
+
+## Informacion adicional
+CPC significa “Cooperative Patent Classification”. Es el sistema usado por oficinas de patentes (USPTO/EPO) para clasificar patentes por tecnología.
+
+Estructura jerárquica (de mayor a menor):
+- Sección: letra grande (A–H, Y). Ej.: G = Física (incluye computación).
+- Clase: 3 caracteres. Ej.: G06 (Cómputo; procesamiento de datos).
+- Subclase: 4 caracteres. Ej.: G06F (Sistemas/arquitecturas de computación).
+- Grupo: ej. G06F 17/00.
+- Subgrupo: ej. G06F 17/30.
+  
+  
+cpc_sections: lista de secciones (A, B, C, …, Y) que aparecen en las patentes más similares. Se usa para:
+- Dar una “vista macro” del campo tecnológico.
+- Alimentar el módulo de “Aplicación industrial” (sugerencias por mayoría).
+
+cpc_groups: lista de grupos CPC (p. ej., G06F, H04L, o IDs de grupo según PatentsView) detectados en esas patentes. Se usa para:
+- Afinar la caracterización tecnológica (más granular).
+- En el “Nivel inventivo”, medir diversidad de grupos entre las referencias cercanas (si muchas referencias fuertes pertenecen a  distintos grupos, puede sugerir combinaciones obvias).
