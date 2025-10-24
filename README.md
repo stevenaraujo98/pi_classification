@@ -106,3 +106,9 @@ cpc_sections: lista de secciones (A, B, C, …, Y) que aparecen en las patentes 
 cpc_groups: lista de grupos CPC (p. ej., G06F, H04L, o IDs de grupo según PatentsView) detectados en esas patentes. Se usa para:
 - Afinar la caracterización tecnológica (más granular).
 - En el “Nivel inventivo”, medir diversidad de grupos entre las referencias cercanas (si muchas referencias fuertes pertenecen a  distintos grupos, puede sugerir combinaciones obvias).
+
+### Modelo embedding
+- [sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2#sentence-transformersparaphrase-multilingual-minilm-l12-v2)
+- [intfloat/multilingual-e5-large](https://huggingface.co/intfloat/multilingual-e5-large)
+- [AI-Growth-Lab/PatentSBERTa](https://huggingface.co/AI-Growth-Lab/PatentSBERTa)
+- [BAAI/bge-m3](https://huggingface.co/BAAI/bge-m3)
