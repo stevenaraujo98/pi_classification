@@ -2,6 +2,7 @@ from transformers import (
     AutoTokenizer, AutoModelForSequenceClassification,
     MarianMTModel, MarianTokenizer
 )
+import torch
 
 model_ckpt = "papluca/xlm-roberta-base-language-detection"
 tokenizer_detected = AutoTokenizer.from_pretrained(model_ckpt)
